@@ -8,15 +8,27 @@ import Interruptor from "./components/Interruptor";
 function App(){
   return(
     <div>
-      <Saudacao />
-      {/* Questão 2 — Passando dados com props */}
-      <Perfil nome="Maria" />
-      <Perfil nome="João" />
-      <Perfil nome="Murilo" />
-      {/* Questão 3 — Meu primeiro estado (useState) */}
-      <Contado />
-      {/* Questão 4 — O interruptor (estado com verdadeiro/falso) */}
-      <Interruptor />
+      <div>
+        <Saudacao />
+      </div>
+      
+      <div>
+        {/* Questão 2 — Passando dados com props */}
+        <Perfil nome="Maria" />
+        <Perfil nome="João" />
+        <Perfil nome="Murilo" />
+      </div>
+
+      <div>
+        {/* Questão 3 — Meu primeiro estado (useState) */}
+        <Contado />
+      </div>
+
+      <div>
+        {/* Questão 4 — O interruptor (estado com verdadeiro/falso) */}
+        <Interruptor />
+      </div>
+      
     </div>
   );
 }

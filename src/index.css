@@ -66,33 +66,45 @@ body {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+body{
+    background-color: #F5F7FA;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
+/* ---Quadrater 1 - Area de navegacao/pesquisa do saite */
+/* @Cabeçalho */
+header{
+    margin: 0%;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px;
 }
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
+/* @Navegação */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-p {
-  margin: 0;
+
+/* ---Elementos Globais - Elementos base do saite, com texto, butao, titulo e paragrafos */
+h2,h1{
+    color: black;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: #2563EB;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #F5F7FA;
 }
 
 code,
